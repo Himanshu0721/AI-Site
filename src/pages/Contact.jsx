@@ -9,7 +9,7 @@ export default function Contact() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "f4a1814b-741b-4320-996e-6cc50d711831");
+    formData.append("access_key", "#");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -132,7 +132,7 @@ export default function Contact() {
               className="bg-white rounded-lg shadow-lg p-6 text-center border border-gray-200"
             >
               <h3 className="text-xl font-bold text-green-800 mb-4">Email Us</h3>
-              <p className="text-gray-700">info@entrepreneurshipnetwork.net</p>
+              <p className="text-gray-700">google@gmail.com</p>
             </motion.div>
 
             <motion.div
@@ -140,7 +140,7 @@ export default function Contact() {
               className="bg-white rounded-lg shadow-lg p-6 text-center border border-gray-200"
             >
               <h3 className="text-xl font-bold text-green-800 mb-4">Company Name</h3>
-              <p className="text-gray-700">TEN (The Entrepreneurship Network)</p>
+              <p className="text-gray-700">TEN</p>
             </motion.div>
 
             <motion.div
@@ -148,7 +148,7 @@ export default function Contact() {
               className="bg-white rounded-lg shadow-lg p-6 text-center border border-gray-200"
             >
               <h3 className="text-xl font-bold text-green-800 mb-4">Visit Us</h3>
-              <p className="text-gray-700">India accelerator Noida 201301 UP, India</p>
+              <p className="text-gray-700"> India</p>
             </motion.div>
           </div>
         </div>
