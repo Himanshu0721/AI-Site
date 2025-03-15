@@ -18,7 +18,7 @@ export function Hero2() {
               className="flex flex-col items-center"
             >
               <Users className="w-12 h-12 mb-4 text-green-600" />
-              <h3 className="text-4xl font-bold mb-2">10K+</h3>
+              <h3 className="text-4xl font-bold mb-2"></h3>
               <p className="text-green-700">Active Students</p>
             </motion.div>
           </div>
@@ -28,7 +28,7 @@ export function Hero2() {
               className="flex flex-col items-center"
             >
               <Trophy className="w-12 h-12 mb-4 text-green-600" />
-              <h3 className="text-4xl font-bold mb-2">95%</h3>
+              <h3 className="text-4xl font-bold mb-2"></h3>
               <p className="text-green-700">Success Rate</p>
             </motion.div>
           </div>
@@ -38,7 +38,7 @@ export function Hero2() {
               className="flex flex-col items-center"
             >
               <BookOpen className="w-12 h-12 mb-4 text-green-600" />
-              <h3 className="text-4xl font-bold mb-2">500+</h3>
+              <h3 className="text-4xl font-bold mb-2"></h3>
               <p className="text-green-700">Courses</p>
             </motion.div>
           </div>

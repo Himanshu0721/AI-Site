@@ -50,7 +50,7 @@ export function Footer({ menuItems = [] }) {
               {/* <p>Phone: +1 (555) 123-4567</p> */}
               <div className="mt-4 flex space-x-4">
                 <a href="#" className="hover:text-blue-400 transition-colors duration-200">Twitter</a>
-                <a href="https://www.linkedin.com/company/the-entrepreneurship-network/" className="hover:text-blue-400 transition-colors duration-200">LinkedIn</a>
+                <a href="#" className="hover:text-blue-400 transition-colors duration-200">LinkedIn</a>
                 <a href="#" className="hover:text-blue-400 transition-colors duration-200">Facebook</a>
               </div>
             </motion.div>

@@ -421,7 +421,7 @@ export function Navbar({ menuItems = [] }) {
             {/* <BookOpen className="h-10 w-10 text-green-600" /> */}
             <div>
               <a href="/" className="text-2xl font-bold text-gray-900">
-                TEN AI
+                 AI SITE
               </a>
               <div className="text-sm text-gray-600">Empowering AI Platforms</div>
             </div>
